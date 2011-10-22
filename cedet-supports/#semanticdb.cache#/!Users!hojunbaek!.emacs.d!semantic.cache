@@ -1,0 +1,75 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables (list 
+   (semanticdb-table "manual-setting.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("linux-p" variable
+               (:constant-flag t
+                :default-value (eq system-type (quote gnu/linux)))
+                nil [39 95])
+            ("mswin-p" variable
+               (:constant-flag t
+                :default-value (eq system-type (quote windows-nt)))
+                nil [96 155])
+            ("add-to-list" code nil nil [265 329])
+            ("add-to-list" code nil nil [330 394])
+            ("add-to-list" code nil nil [450 497])
+            ("add-to-list" code nil nil [548 594])
+            ("when" code nil nil [695 1006])
+            ("when" code nil nil [1008 1415])
+            ("cond" code nil nil [1745 2413])
+            ("change-face-and-modeline-color" function (:arguments ("newframe")) nil [2491 2866])
+            ("add-hook" code nil nil [2870 2940])
+            ("cond" code nil nil [3057 3765])
+            ("load-supports" function (:arguments ("arg")) nil [4222 4454])
+            ("global-set-key" code nil nil [4457 4518])
+            ("full-supports-p" variable nil nil [4578 4606])
+            ("full-supports" function nil nil [4608 4886])
+            ("cedet-supports-p" variable nil nil [5117 5146])
+            ("cedet-supports" function nil nil [5149 5425])
+            ("ecb-supports-p" variable nil nil [5473 5500])
+            ("ecb-supports" function nil nil [5503 5715])
+            ("load" code nil nil [5755 5797])
+            ("load" code nil nil [5831 5881])
+            ("load" code nil nil [5899 5951])
+            ("nxhtml-supports-p" variable nil nil [6018 6048])
+            ("nxhtml-supports" function nil nil [6051 6839])
+            ("anonymous" code nil nil [6950 6952])
+            ("interactive" code nil nil [6957 6970])
+            ("when" code nil nil [6974 7165])
+            ("anonymous" code nil nil [7283 7285])
+            ("interactive" code nil nil [7288 7301])
+            ("when" code nil nil [7304 7445])
+            ("anonymous" code nil nil [7554 7556])
+            ("interactive" code nil nil [7560 7573])
+            ("when" code nil nil [7576 7837])
+            ("anonymous" code nil nil [8020 8022])
+            ("interactive" code nil nil [8026 8039])
+            ("when" code nil nil [8042 8185])
+            ("setq-default" code nil nil [10031 10070])
+            ("fboundp" code nil nil [11612 11636])
+            ("add-hook" code nil nil [11639 11684])
+            ("add-hook" code nil nil [11687 11737])
+            ("load" code nil nil [12304 12342])
+            ("global-set-key" code nil nil [13476 13524])
+            ("global-set-key" code nil nil [13609 13670])
+            ("global-set-key" code nil nil [13749 13795])
+            ("global-set-key" code nil nil [13798 13852])
+            ("global-set-key" code nil nil [14513 14604])
+            ("global-set-key" code nil nil [14609 14692])
+            ("global-set-key" code nil nil [15146 15220])
+            ("global-set-key" code nil nil [15223 15289])
+            ("lambda" code nil nil [15376 15723]))          
+    :file "manual-setting.el"
+    :pointmax 18636
+    :fsize 20995
+    :lastmodtime '(19847 60057)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!hojunbaek!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,18 @@
+;; Object PHP/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "PHP/"
+  :tables (list 
+   (semanticdb-table "sample.php"
+    :major-mode 'html-mode
+    :tags nil
+    :file "sample.php"
+    :pointmax 486
+    :fsize 485
+    :lastmodtime '(19847 16716)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!hojunbaek!PHP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )
